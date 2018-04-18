@@ -1,0 +1,79 @@
+@import url("css/normalize.css");
+
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clearfix::after,
+.header::after,
+.grid::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+html{
+	font-size: 100%;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	color: #474747;
+	margin: 0;
+}
+.page__cell{
+	max-width: 940px;
+	margin: 0 auto;
+}
+.logo{
+	float: left;
+}
+.nav{
+	width: 387px;
+	float: right;
+	font-size: 0.938rem;
+}
+.nav__list{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+.nav__link{
+	text-decoration: none;
+	color: #585858;
+	font-weight: 400;
+	padding: 0.8rem 0;
+	display: block;
+}
+.link:hover{
+	color:#3498db;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
