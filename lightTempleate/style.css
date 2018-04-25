@@ -1,0 +1,377 @@
+@import url("css/normalize.css");
+
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clearfix::after,
+.header::after,
+.example::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+html{
+	font-size: 100%;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	color: #474747;
+	margin: 0;
+	background: #f2f2f2;
+}
+
+.page__cell{
+	max-width: 960px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+.logo{
+	float: left;
+}
+.nav{
+	width: 387px;
+	float: right;
+	font-size: 0.938rem;
+}
+.nav__btn{
+	text-align: right;
+	display: none;
+}
+.btn-nav{
+	padding: 15px;
+	border-radius: 5%;
+	cursor: pointer;
+	border: none;
+}
+.btn-nav:hover{
+	background: #3498db;
+}
+.btn-nav__list{
+	display: block;
+	width: 25px;
+	height: 2px;
+	background: #000;
+	border: 1px solid #000;
+	margin-bottom: 3px;
+}
+.btn-nav__list:last-child{
+	margin-bottom: 0; 
+}
+.nav__list{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+.nav__link{
+	text-decoration: none;
+	color: #585858;
+	font-weight: 400;
+	padding: 0.8rem 0;
+	display: block;
+}
+.link:hover{
+	color:#3498db;
+}
+.header{
+	margin: 1rem 0;
+}
+.title__slider{
+	padding-top: 45%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size:cover;
+	background-size: cover;
+	position: relative;
+
+}
+.title__text{
+	text-align: center;
+	/*vertical-align:baseline;*/
+	position: absolute;
+	top:  50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-70%);
+	/*font-size: 2.188rem;*/
+	font-weight: 700;
+	line-height: 1.286;
+	/*display: table-cell;*/
+  /*vertical-align: middle;*/
+}
+.title__small-text{
+	font-size: 0.938rem;
+	font-weight: 400;
+	line-height: 1.333;
+}
+.title__text-blue{
+	color:#3498db;
+}
+.title__btn{
+	width: 8.4375rem;
+	height: 3.375rem;
+	background: #3498db;
+	border: 1px solid #3498db;
+	color: #fff;
+	font-size: 1.25rem;
+	font-weight: 300;
+	position: absolute;
+	top:  70%;
+	left: 50%;
+	transform: translateX(-50%);
+	cursor: pointer;
+	/*font-size: 2.188rem;*/
+
+}
+.advantage__1{
+	display: flex;
+	flex-direction: row;
+	margin-left: 19.63%;
+	margin-top: 20%;
+}
+.advantage__2{
+	display: flex;
+	flex-direction: row;
+	margin-left: 19.63%;
+	margin-top: 10%;
+}
+.advantage__item{
+	width: 35%;
+	/*width: 15.6875rem;*/
+	/*height: 11.375rem;*/
+	/*text-align: center;*/
+	margin-right: 10%;
+
+}
+.advantage__icon-headline{
+	display: flex;
+	flex-direction: row;
+}
+.advantage__headline{
+	margin-left: 20%;
+	color: #000;
+}
+.headline{
+	margin-top: 9.75rem;
+	text-align: center;
+	margin-bottom: 2.0625rem;
+}
+.nav-middle__list{
+	
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+.nav-middle__link{
+	text-decoration: none;
+	color: #000;
+	font-size: 1.125rem;
+	font-weight: 400;
+}
+.nav-middle{
+	margin: 0 26%;
+	width: 48%;
+}
+.nav-middle__link:hover{
+	color: #3498db;
+}
+.example{
+	margin-top: 1.8125rem;
+}
+.example__item{
+	margin-bottom: 1.5rem;
+}
+.example__picture{
+	width: 100%;
+	display: block;
+
+}
+.example__block{
+	float: left;
+	margin-right: 2.13%;
+	width: 31.91333%;
+}
+.example__block:last-child{
+	margin-right: 0;
+}
+.button2{
+	text-align: center;
+	margin-top: 1.5rem;
+}
+.button__mini{
+	height: 2.5625rem;
+	width: 6.5rem;
+	margin-bottom: 3rem;
+	background: #429ad4;
+	border: 1px solid #429ad4;
+	color: #fff;
+	font-size: 0.9375rem;
+	cursor: pointer;
+
+}
+.get,
+.follow__me{
+	text-align: center;
+}
+.get__item{
+	margin-bottom: 1rem;
+}
+.get__name--yourname,
+.get__email--youremail,
+.get__message--yourmessage{
+	width: 38.5rem;
+	padding: 1.375rem 1rem;
+	color: #c2c2c2;
+	font-size: 0.93751rem;
+	border: 1px solid #fff;
+	border-radius: 7px;
+}
+.get__message--yourmessage{
+	height: 15rem;
+}
+.button__set{
+	margin-top: 0.875rem;
+}
+.follow__social{
+	text-align: center;
+}
+.follow__facebook{
+	background: url(images/fb.png);
+	background-size: cover;
+	display: inline-block;
+	width: 1.875rem;
+	height: 1.875rem;
+	cursor: pointer;
+}
+.follow__facebook:hover{
+	background: url(images/124010.svg);
+}
+.follow__twitter{
+	background: url(images/twitter.png);
+	background-size: cover;
+	display: inline-block;
+	width: 1.875rem;
+	height: 1.875rem;
+	cursor: pointer;
+}
+.follow__twitter:hover{
+	background: url(images/124021.svg);
+}
+.follow__gp{
+	background: url(images/gp.png);
+	background-size: cover;
+	display: inline-block;
+	width: 1.875rem;
+	height: 1.875rem;
+	cursor: pointer;
+}
+.follow__gp:hover{
+	background: url(images/g.svg);
+}
+.follow__youtube{
+	background: url(images/youtube.png);
+	background-size: cover;
+	display: inline-block;
+	width: 1.875rem;
+	height: 1.875rem;
+	cursor: pointer;
+}
+.follow__youtube:hover{
+	background: url(images/youtube.svg);
+}
+.follow__in{
+	background: url(images/in.png);
+	background-size: cover;
+	display: inline-block;
+	width: 1.875rem;
+	height: 1.875rem;
+	cursor: pointer;
+}
+.follow__in:hover{
+	background: url(images/in.svg);
+}
+.follow__be{
+	background: url(images/be.png);
+	background-size: cover;
+	display: inline-block;
+	width: 1.875rem;
+	height: 1.875rem;
+	cursor: pointer;
+}
+.follow__be:hover{
+	background: url(images/be.svg);
+}
+.follow__drib{
+	background: url(images/drib.png);
+	background-size: cover;
+	display: inline-block;
+	width: 1.875rem;
+	height: 1.875rem;
+	cursor: pointer;
+}
+.follow__drib:hover{
+	background: url(images/drib.svg);
+}
+.follow__what{
+	background: url(images/what.png);
+	background-size: cover;
+	display: inline-block;
+	width: 1.875rem;
+	height: 1.875rem;
+	cursor: pointer;
+}
+.follow__what:hover{
+	background: url(images/what.svg);
+}
+.follow__s{
+	background: url(images/s.png);
+	background-size: cover;
+	display: inline-block;
+	width: 1.875rem;
+	height: 1.875rem;
+	cursor: pointer;
+}
+.page__row--footer{
+	margin-top: 5.25rem;
+	background: #fff;
+}
+.follow__s:hover{
+	background: url(images/s.svg);
+}
+.footer{
+	text-align: center;
+}
+.footer__text{
+	display: inline-block;
+}
+.footer__picture{
+	width: 1rem;
+	height: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

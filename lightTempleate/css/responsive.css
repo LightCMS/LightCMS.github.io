@@ -1,0 +1,100 @@
+@media screen and (max-width: 992px){
+	html{
+		font-size: 90%;
+	}
+}
+@media screen and (max-width: 768px){
+		.nav__btn{
+			display: block;
+		}
+		.nav__list{
+			display: none;
+		}
+		.nav__list--open{
+			display: block;
+		}
+		.nav__link{
+			display: inline-block;
+			font-size: 1.2rem;
+			font-weight: 700;
+			
+		}
+		.nav{
+			width: 100%;
+		}
+		.nav__list{
+			text-align: left;
+		}
+		.nav-middle{
+			margin: 0 10%;
+			width: 80%;
+		}
+		.title__slider{
+		padding-top: 35rem;
+		}
+	}
+@media screen and (max-width: 600px){
+	html{
+		font-size: 82%;
+	}
+	.title__slider{
+		padding-top: 30rem;
+	}
+	
+	.title__text{
+		font-size: 0.9rem;
+	}
+	.br{
+		display: none;
+	}
+	/*.advantage{
+		text-align: center;
+	}*/
+	.advantage__1,
+	.advantage__2{
+		display: inline-block;
+		margin:0;
+		height: 0;
+		/*width: 150%;*/
+	}
+	/*.advantage__icon-headline{
+		display: inline-block;
+	}*/
+	.advantage__item{
+		/*width: 100%;*/
+		margin-right: 0;
+		margin:70px auto;
+		/*margin-left: 20%;*/
+	}
+	.nav-middle{
+		margin: 0 0%;
+		width: 100%;
+	}
+	.example__block{
+		float: none;
+		margin:0 10%;
+		width: 80%;
+	}
+	.get__name--yourname,
+	.get__email--youremail,
+	.get__message--yourmessage{
+		width: 28.5rem;
+	}
+	.logo{
+		float: none;
+		
+	}
+	.header__logo{
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+
+
+
+
