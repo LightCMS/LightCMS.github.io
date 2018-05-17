@@ -84,7 +84,7 @@ body{
 .main{
 	height: 100%;
 	position: relative;
-	background: linear-gradient(to right, rgba(255, 255, 255, 0.25) 0%, rgba(0, 0, 0, 0.6) 100%), url(..img/kuala-lumpur.jpg) 0 center no-repeat;
+	background: linear-gradient(to right, rgba(255, 255, 255, 0.25) 0%, rgba(0, 0, 0, 0.6) 100%), url(.../img/kuala-lumpur.jpg) 0 center no-repeat;
 	background-size: cover;
 }
 .main__head,
