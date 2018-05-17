@@ -1,0 +1,64 @@
+@media screen and (max-width: 992px){
+	html{
+		font-size: 90%;
+	}
+	.program__head{
+		text-align: center;
+	}
+}
+@media screen and (max-width: 768px){
+	html{
+		font-size: 65%;
+	}
+	.speakers{
+		text-align: center;
+		border-left: none;
+	}
+	.speakers__person{
+	display:inline-block;
+	}
+	.speakers__person-item{
+	width: 100%;
+	}
+	.speakers__person-picture{
+	width: 170px;
+}
+	.speakers__person-becom{
+		text-align: center;
+		margin: 0;
+	}
+	.speakers__person-name{
+		text-align: center;
+	}
+	.speakers__person-profession{
+		text-align: center;
+	}
+}
+@media screen and (max-width: 600px){
+	html{
+		font-size: 55%;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
