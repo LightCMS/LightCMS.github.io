@@ -1,0 +1,80 @@
+@media screen and (max-width: 1440px){
+	html{
+		font-size: 90%;
+	}
+}
+@media screen and (max-width: 1220px){
+	html{
+		font-size: 80%;
+	}
+}
+@media screen and (max-width: 992px){
+	html{
+		font-size: 65%;
+	}
+}
+@media screen and (max-width: 768px){
+	html{
+		font-size: 60%;
+	}
+	.header__btn,
+	.header__logo,
+	.header__email-adress,
+	.header__phone-number,
+	.header__btn-cons{
+		float: none;
+		text-align: center;
+		margin: 0 0 2rem 0;
+		padding: 0;
+	}
+	.main__headline{
+		margin-top: 30rem;
+	}
+	.phone-number{
+		margin: 0;
+	}
+	.email-adress{
+		margin: 0;
+	}
+	.works__item{
+		float: none;
+		width: 100%;
+	}
+	.services__item{
+	float: none;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 2rem;
+	}
+}
+@media screen and (max-width: 600px){
+	html{
+		font-size: 50%;
+	}
+	.footer{
+		display: block;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
