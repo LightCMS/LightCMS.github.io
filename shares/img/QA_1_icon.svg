@@ -1,0 +1,29 @@
+<svg id="QA_1_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.34 43.34">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="_x3C_Grupo_x3E__3_" transform="translate(1 1)">
+    <path id="Path_155" data-name="Path 155" class="cls-1" d="M13.669,26.337A12.093,12.093,0,0,1,6.8,24.27L1,26.337l2.067-5.8A12.093,12.093,0,0,1,1,13.669a12.669,12.669,0,0,1,25.337,0" transform="translate(-1 -1)"/>
+    <g id="Group_320" data-name="Group 320" transform="translate(8.668 7.935)">
+      <ellipse id="Ellipse_29" data-name="Ellipse 29" class="cls-1" cx="4.001" cy="4.734" rx="4.001" ry="4.734"/>
+      <line id="Line_21" data-name="Line 21" class="cls-1" x2="2.667" y2="0.533" transform="translate(4.667 9.535)"/>
+    </g>
+  </g>
+  <g id="_x3C_Grupo_x3E__2_" transform="translate(17.003 17.003)">
+    <path id="Path_156" data-name="Path 156" class="cls-1" d="M48.27,44.536a12.8,12.8,0,0,0,2.067-6.868A12.669,12.669,0,1,0,37.669,50.337a12.093,12.093,0,0,0,6.868-2.067l5.8,2.067Z" transform="translate(-25 -25)"/>
+    <g id="Group_321" data-name="Group 321" transform="translate(9.335 8.001)">
+      <line id="Line_22" data-name="Line 22" class="cls-1" x1="3.334" y2="9.335"/>
+      <line id="Line_23" data-name="Line 23" class="cls-1" x2="3.334" y2="9.335" transform="translate(3.334)"/>
+      <line id="Line_24" data-name="Line 24" class="cls-1" x2="4.001" transform="translate(1.334 6.001)"/>
+    </g>
+  </g>
+</svg>

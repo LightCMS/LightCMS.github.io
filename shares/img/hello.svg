@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 35 35">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6f60a9;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_31" data-name="Ellipse 31" class="cls-1" cx="17.5" cy="17.5" r="17.5" transform="translate(3652 56)"/>
+    </clipPath>
+  </defs>
+  <g id="hello_icon" data-name="hello icon" transform="translate(-1317 -58)">
+    <circle id="Ellipse_30" data-name="Ellipse 30" class="cls-1" cx="17.5" cy="17.5" r="17.5" transform="translate(1317 58)"/>
+    <g id="user_icon" class="cls-2" transform="translate(-2335 2)">
+      <g id="Group_323" data-name="Group 323" transform="translate(3655.6 -888.873)">
+        <path id="Path_159" data-name="Path 159" class="cls-3" d="M.4,975.175a17,17,0,0,0,13.245,6.7,16.787,16.787,0,0,0,13.169-6.622h0c-2.973-3.763-8.052-6.923-13.207-6.923A16.169,16.169,0,0,0,.927,974.46l-.527.715M13.645,952.9C10.522,952.9,8,955.8,8,959.3s2.521,6.4,5.644,6.4,5.644-2.9,5.644-6.4S16.768,952.9,13.645,952.9Zm0,.753c2.672,0,4.891,2.483,4.891,5.644s-2.22,5.644-4.891,5.644-4.891-2.483-4.891-5.644S10.973,953.653,13.645,953.653Zm0,15.427a15.457,15.457,0,0,1,12.229,6.02,15.43,15.43,0,0,1-24.457,0A15.347,15.347,0,0,1,13.645,969.08Z" transform="translate(0)"/>
+      </g>
+    </g>
+  </g>
+</svg>
