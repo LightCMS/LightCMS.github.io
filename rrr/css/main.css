@@ -1,0 +1,199 @@
+@import url("css/normalize.css");
+@font-face {
+  font-family: 'KIAM';
+  src: url('../fonts/KIAM.eot');
+  src: url('../fonts/KIAM.eot') format('embedded-opentype'), url('../fonts/KIAM.woff2') format('woff2'), url('../fonts/KIAM.woff') format('woff'), url('../fonts/KIAM.ttf') format('truetype'), url('../fonts/KIAM.svg#KIAM') format('svg');
+}
+@font-face {
+  font-family: 'KIAB';
+  src: url('../fonts/KIAB.eot');
+  src: url('../fonts/KIAB.eot') format('embedded-opentype'), url('../fonts/KIAB.woff2') format('woff2'), url('../fonts/KIAB.woff') format('woff'), url('../fonts/KIAB.ttf') format('truetype'), url('../fonts/KIAB.svg#KIAB') format('svg');
+}
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.clearfix::after,
+.header::after,
+.grid::after,
+.main__title::after  {
+  content: "";
+  display: table;
+  clear: both;
+}
+html {
+  font-size: 100%;
+}
+body {
+  font-family: 'KIAM', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000;
+  margin: 0;
+}
+.main {
+  position: relative;
+}
+.main:before,
+.main:after {
+  content: '';
+  width: 50%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+}
+.main:after {
+  background-color: #03187f;
+  left: 0;
+}
+.main:before {
+  background-color: #fff;
+  right: 0;
+}
+.main .container {
+  margin: 0 auto;
+  max-width: 1180px;
+  background-color: #03187f;
+  position: relative;
+  z-index: 10;
+}
+.main .container:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.main .header__logocontact,
+.main .main__title-sentence {
+  float: left;
+  width: 43%;
+  height: 5.3125rem;
+  background-color: #03187f;
+}
+.main .header__logocontact:after,
+.main .main__title-sentence:after {
+  vertical-align: middle;
+  display: inline-block;
+}
+.main .header__logocontact:after,
+.main .main__title-sentence:after {
+  content: '';
+  height: 100%;
+}
+.main .header__btnlogin,
+.main .main__title-img {
+  float: right;
+  width: 57%;
+  height: 5.3125rem;
+  background-color: #fff;
+}
+.main .header__btnlogin:after,
+.main .main__title-img:after {
+  vertical-align: middle;
+  display: inline-block;
+}
+.main .header__btnlogin:after,
+.main .main__title-img:after {
+  content: '';
+  height: 100%;
+}
+.header__logo {
+  float: left;
+}
+.wrapp {
+  display: table;
+  height: 5.3125rem;
+}
+.wrapp__block {
+  display: table-cell;
+  vertical-align: bottom;
+}
+.header__logo-contact {
+  line-height: 1rem;
+  margin: 0 0 0 1rem;
+  text-align: left;
+  color: #fff;
+  width: 170px;
+}
+.header__contact {
+  float: left;
+  margin-left: 5.75rem;
+  font-size: 14px;
+  font-weight: normal;
+}
+.header__contact-point:before {
+  content: '';
+  display: block;
+  width: 1rem;
+  height: 2rem;
+  background: url(../img/point.png) no-repeat;
+  background-size: 100%;
+  float: left;
+  margin-right: 0.625rem;
+}
+.header__button {
+  float: left;
+}
+.header__btncall {
+  font-family: 'KIAB', sans-serif;
+  background-color: #03187f;
+  color: #fff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 1.25rem 2rem 1.25rem 2.375rem;
+  border: none;
+  margin-left: 2rem;
+  outline: none;
+}
+.header__btncall:hover {
+  cursor: pointer;
+  background-color: #d40808;
+  outline: none;
+}
+.header__ppplogo {
+  float: right;
+}
+.main .main__title-sentence {
+  height: 30rem;
+}
+.main .main__title-img {
+  height: 30rem;
+}
+.main-title-text:first-child {
+  margin-top: 5.3125rem;
+}
+.main-title-text:last-child {
+  margin-top: 0;
+}
+.main-title-text {
+  color: #fff;
+  font-family: 'KIAB', sans-serif;
+  font-size: 1.875rem;
+  padding: 0;
+  margin-bottom: 0;
+  word-spacing: 1rem;
+}
+.main-title-text-strong {
+  color: #fff;
+  font-family: 'KIAB', sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  position: relative;
+  width: 36rem;
+  line-height: 60px;
+  margin: 0;
+  word-spacing: 1.8125rem;
+  z-index: 2;
+}
+.main__title-img-picture {
+  /*padding-top: 33%; */
+  width: 130%;
+  height: 84%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 1.6875rem;
+  position: relative;
+  right: 10%;
+}
